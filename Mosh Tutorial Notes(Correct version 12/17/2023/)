@@ -1,0 +1,42 @@
+#Input and output practice
+birth_year = input("Enter your birth year: ")
+#use the int function to convert the birth year from string to integer.
+age = 2024 - int(birth_year)
+print(age)
+
+#calculator project
+first = input("Enter the first number: ")
+second = input("Enter the second number: ")
+add1 = float(first) #just do float(first) + float(second)
+add2= float(second)
+sum = add1 + add2
+print(sum)
+
+#string practice
+william = "ding"
+print(william.upper())
+print(william.find('i'))
+print(william.find('ing'))
+print(william)
+
+#arithmetic operations
+print(29.3 + 3.2556)
+print(88 //3)
+print(88/3)
+
+
+
+#operator precendence(basicall pemdas lol)
+10*2+3 = x
+10*(2+3) = y
+print(x)
+print(y)
+
+#comparison operators
+x = 3 > 2 #boolean expression bc results in 'true' when printed
+y = 3 =>2 #3 is 'greater than or equal to' 2.
+
+#logical operators
+price = 25
+print(price > 10 and price < 30) #both return true, entirety is true;syllogism
+print(price >10 or price < 10)
