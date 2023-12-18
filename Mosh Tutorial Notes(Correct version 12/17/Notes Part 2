@@ -1,0 +1,17 @@
+#medical questionare [basic]
+weight = float(input("Weight: "))
+height = float(input("Height: "))
+if weight > 115:
+    print("WEIGHT: You are healthy right now,")
+    
+elif weight < 115:
+    print("WEIGHT: Consider eating more or contacting your local health official in suggestions to increase weight.")
+    
+if height > 5.12:
+    print("HEIGHT: You are a healthy height")
+    
+elif height < 5.12:
+    print("HEIGHT: Consider more nutritious meals.")
+
+
+#
