@@ -1,0 +1,21 @@
+import random
+import time
+#slicing
+mainwords = "Huh? Ok? What? Yeah? Oh wait? Yeah cool? Uhh? Me? Whatdaheck? Ya? Oh? MM?"
+print(mainwords[:4])
+print(mainwords[4:10])
+print(mainwords[11:15])
+print(mainwords[12:18])
+print(mainwords[1:16])
+#random
+number = random.randint(1,1000)
+while True:
+    number = random.randint(1,1000)
+    time.sleep(2)
+    print(number)
+    if number > 120:
+        False
+    
+#formatting notes
+print("So! You claim to be the\"Guy\", do you?")
+print("Oh well then! Let's see!")
